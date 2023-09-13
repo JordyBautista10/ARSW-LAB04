@@ -27,8 +27,8 @@ public class Blueprint {
     }
 
     public Blueprint() {
-    }    
-    
+    }
+
     public String getName() {
         return name;
     }
