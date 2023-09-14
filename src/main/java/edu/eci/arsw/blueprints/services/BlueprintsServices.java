@@ -26,7 +26,7 @@ import org.springframework.stereotype.Service;
 public class BlueprintsServices {
 
     @Autowired
-
+    @Qualifier("InMemory")
     BlueprintsPersistence bpp;
     @Autowired
     @Qualifier("redundant")
@@ -60,5 +60,5 @@ public class BlueprintsServices {
     public Set<Blueprint> getBlueprintsByAuthor(String author) throws BlueprintNotFoundException{
         return  bpp.getBlueprintsByAuthor(author);
     }
-    
+
 }

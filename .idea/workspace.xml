@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38f3268c-a5a7-4c68-b813-5edd79f8f28b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/model/Blueprint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/model/Blueprint.java" afterDir="false" />
+    <list default="true" id="38f3268c-a5a7-4c68-b813-5edd79f8f28b" name="Changes" comment="punto 4 filtros terminados&#10;&#10;&#10;Co-authored-by: MpulidoM &lt;marianapulido075@gmail.com&gt;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/persistence/impl/InMemoryBlueprintPersistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/persistence/impl/InMemoryBlueprintPersistence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/services/BlueprintsServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/services/BlueprintsServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/model/Blueprint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/model/Blueprint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/persistence/BlueprintsPersistence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/persistence/BlueprintsPersistence.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/persistence/impl/InMemoryBlueprintPersistence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/persistence/impl/InMemoryBlueprintPersistence.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/services/BlueprintsServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/services/BlueprintsServices.class" afterDir="false" />
     </list>
@@ -29,6 +25,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Erika Juliana Castro Romero &lt;118181224+juc28@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
@@ -59,7 +60,7 @@
     "last_opened_file_path": "C:/Users/erika/Music/ARSW-LAB04"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.InMemoryPersistenceTest">
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.eci.arsw.blueprints.Main" />
       <module name="blueprints-middleware" />
@@ -88,8 +89,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RedundantBlueprintFilterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="blueprints-middleware" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.eci.arsw.blueprints.test.persistence.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.eci.arsw.blueprints.test.persistence.impl" />
+      <option name="MAIN_CLASS_NAME" value="edu.eci.arsw.blueprints.test.persistence.impl.RedundantBlueprintFilterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedundantBlueprintFilterTest.deberiaFiltrarVariosPlanoPorRedundancia" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="blueprints-middleware" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.eci.arsw.blueprints.test.persistence.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.eci.arsw.blueprints.test.persistence.impl" />
+      <option name="MAIN_CLASS_NAME" value="edu.eci.arsw.blueprints.test.persistence.impl.RedundantBlueprintFilterTest" />
+      <option name="METHOD_NAME" value="deberiaFiltrarVariosPlanoPorRedundancia" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedundantBlueprintFilterTest.shouldFilterRedundantBlueprint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="blueprints-middleware" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.eci.arsw.blueprints.test.persistence.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.eci.arsw.blueprints.test.persistence.impl" />
+      <option name="MAIN_CLASS_NAME" value="edu.eci.arsw.blueprints.test.persistence.impl.RedundantBlueprintFilterTest" />
+      <option name="METHOD_NAME" value="shouldFilterRedundantBlueprint" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RedundantBlueprintFilterTest" />
+        <item itemvalue="JUnit.RedundantBlueprintFilterTest.shouldFilterRedundantBlueprint" />
+        <item itemvalue="JUnit.RedundantBlueprintFilterTest.deberiaFiltrarVariosPlanoPorRedundancia" />
         <item itemvalue="JUnit.InMemoryPersistenceTest" />
         <item itemvalue="Application.Main" />
       </list>
@@ -104,6 +155,14 @@
       <option name="presentableId" value="Default" />
       <updated>1694699894170</updated>
     </task>
+    <task id="LOCAL-00001" summary="punto 4 filtros terminados&#10;&#10;&#10;Co-authored-by: MpulidoM &lt;marianapulido075@gmail.com&gt;">
+      <created>1694703002097</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694703002097</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,5 +175,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="punto 4 filtros terminados&#10;&#10;&#10;Co-authored-by: MpulidoM &lt;marianapulido075@gmail.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="punto 4 filtros terminados&#10;&#10;&#10;Co-authored-by: MpulidoM &lt;marianapulido075@gmail.com&gt;" />
   </component>
 </project>
