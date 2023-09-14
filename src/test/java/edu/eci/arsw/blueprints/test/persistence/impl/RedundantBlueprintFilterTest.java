@@ -13,6 +13,8 @@ import org.springframework.stereotype.Component;
 import java.util.Set;
 import static org.junit.Assert.assertEquals;
 
+
+
 @Component
 public class RedundantBlueprintFilterTest {
     public BlueprintsServices services;
