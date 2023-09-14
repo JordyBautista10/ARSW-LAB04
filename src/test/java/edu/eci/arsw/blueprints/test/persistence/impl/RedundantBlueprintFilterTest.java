@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 import java.util.Set;
 import static org.junit.Assert.assertEquals;
 
-
+// Verificar valor esperado Filtro RED - PLANOS
 
 @Component
 public class RedundantBlueprintFilterTest {
