@@ -60,5 +60,10 @@ public class InMemoryBlueprintPersistence implements BlueprintsPersistence{
         }
         return responses;
     }
-    
+
+    @Override
+    public Set<Blueprint> getAllBlueprints() throws BlueprintPersistenceException {
+        return (Set<Blueprint>) blueprints;
+    }
+
 }
