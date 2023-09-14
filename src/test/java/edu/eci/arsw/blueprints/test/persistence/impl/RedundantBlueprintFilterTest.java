@@ -14,11 +14,6 @@ import java.util.Set;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 
-/**
- * @author Leonardo Galeano
- * @author Iván Camilo Rincón Saavedra
- * @version 8/29/2021
- */
 
 @Component
 public class RedundantBlueprintFilterTest {
