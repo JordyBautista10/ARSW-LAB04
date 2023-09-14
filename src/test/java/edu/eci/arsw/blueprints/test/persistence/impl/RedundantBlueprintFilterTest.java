@@ -12,8 +12,6 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Component;
 import java.util.Set;
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.fail;
-
 
 @Component
 public class RedundantBlueprintFilterTest {
