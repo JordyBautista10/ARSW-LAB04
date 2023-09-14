@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="38f3268c-a5a7-4c68-b813-5edd79f8f28b" name="Changes" comment="punto 4 filtros terminados&#10;&#10;&#10;Co-authored-by: MpulidoM &lt;marianapulido075@gmail.com&gt;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/persistence/impl/InMemoryBlueprintPersistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/persistence/impl/InMemoryBlueprintPersistence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/services/BlueprintsServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/services/BlueprintsServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/persistence/impl/InMemoryBlueprintPersistence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/persistence/impl/InMemoryBlueprintPersistence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/services/BlueprintsServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/services/BlueprintsServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/eci/arsw/blueprints/test/persistence/impl/RedundantBlueprintFilterTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,12 +52,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feature/punto4",
+    "git-widget-placeholder": "feature/pruebas",
     "last_opened_file_path": "C:/Users/erika/Music/ARSW-LAB04"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.RedundantBlueprintFilterTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.eci.arsw.blueprints.Main" />
       <module name="blueprints-middleware" />
@@ -139,9 +135,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RedundantBlueprintFilterTest" />
+        <item itemvalue="JUnit.InMemoryPersistenceTest" />
         <item itemvalue="JUnit.RedundantBlueprintFilterTest.shouldFilterRedundantBlueprint" />
         <item itemvalue="JUnit.RedundantBlueprintFilterTest.deberiaFiltrarVariosPlanoPorRedundancia" />
-        <item itemvalue="JUnit.InMemoryPersistenceTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
