@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 import java.util.Set;
 import static org.junit.Assert.assertEquals;
 
-// Verificar valor esperado Filtro RED - PLANOS
+
 
 @Component
 public class RedundantBlueprintFilterTest {
@@ -29,7 +29,7 @@ public class RedundantBlueprintFilterTest {
     public void shouldFilterRedundantBlueprint() {
 
         Point[] pts = new Point[]{new Point(2, 2), new Point(2, 2), new Point(20, 20), new Point(20, 20)};
-        Blueprint bp = new Blueprint("john", "thepaint", pts);
+        Blueprint bp = new Blueprint("Juliana", "thepaint", pts);
 
         try {
             services.addNewBlueprint(bp);
@@ -40,7 +40,7 @@ public class RedundantBlueprintFilterTest {
         // Obtenemos el plano filtrado.
         Blueprint filteredBlueprint = null;
         try {
-            filteredBlueprint = services.getBlueprint("john", "thepaint");
+            filteredBlueprint = services.getBlueprint("Juliana", "thepaint");
         } catch (BlueprintNotFoundException e) {
             throw new RuntimeException(e);
         }
@@ -54,8 +54,8 @@ public class RedundantBlueprintFilterTest {
     public void shouldFilterRedundantBlueprints() {
 
         Point[] pts = new Point[]{new Point(4, 4), new Point(4, 4), new Point(12, 12), new Point(12, 12), new Point(10, 101), new Point(10, 10)};
-        Blueprint bp1 = new Blueprint("john", "thepaint", pts);
-        Blueprint bp2 = new Blueprint("john", "thepaint2", pts);
+        Blueprint bp1 = new Blueprint("Juliana", "thepaint", pts);
+        Blueprint bp2 = new Blueprint("Juliana", "thepaint2", pts);
 
         try {
             services.addNewBlueprint(bp1);
