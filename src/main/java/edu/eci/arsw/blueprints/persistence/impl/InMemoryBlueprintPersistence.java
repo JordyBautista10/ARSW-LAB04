@@ -13,10 +13,7 @@ import edu.eci.arsw.blueprints.persistence.BlueprintsPersistence;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /**
  *
@@ -65,7 +62,9 @@ public class InMemoryBlueprintPersistence implements BlueprintsPersistence{
 
     @Override
     public Set<Blueprint> getAllBlueprints() throws BlueprintPersistenceException {
-        return (Set<Blueprint>) blueprints;
+        Set<Blueprint> responses = new HashSet();
+        responses.addAll(blueprints.values());
+        return responses;
     }
 
 }

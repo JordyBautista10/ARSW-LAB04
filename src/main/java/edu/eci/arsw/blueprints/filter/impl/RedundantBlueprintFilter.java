@@ -20,15 +20,10 @@ public class RedundantBlueprintFilter implements BlueprintFilter {
         List<Point> filteredList = new ArrayList<>();
 
         // Eliminamos la repetición de puntos consecutivos.
-        for (int i = 0; i < points.size() - 1; i++) {
-            if (!points.get(i).equals(points.get(i + 1))) {
+        for (int i = 0; i < points.size() ; i++) {
+            if (!filteredList.contains(points.get(i))){
                 filteredList.add(points.get(i));
             }
-        }
-
-        //En el caso de que el plano contenga al menos un punto, agregamos el punto más reciente al listado filtrado.
-        if (points.size() > 0) {
-            filteredList.add(points.get(points.size() - 1));
         }
 
         blueprint.setPoints(filteredList);
