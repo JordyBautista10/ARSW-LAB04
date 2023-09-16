@@ -10,17 +10,17 @@ import edu.eci.arsw.blueprints.model.Point;
 import edu.eci.arsw.blueprints.persistence.BlueprintNotFoundException;
 import edu.eci.arsw.blueprints.persistence.BlueprintPersistenceException;
 import edu.eci.arsw.blueprints.persistence.BlueprintsPersistence;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /**
  *
  * @author hcadavid
  */
 @Component
+@Qualifier("InMemory")
 public class InMemoryBlueprintPersistence implements BlueprintsPersistence{
 
     private final Map<Tuple<String,String>,Blueprint> blueprints=new HashMap<>();
@@ -50,7 +50,21 @@ public class InMemoryBlueprintPersistence implements BlueprintsPersistence{
 
     @Override
     public Set<Blueprint> getBlueprintsByAuthor(String author) throws BlueprintNotFoundException {
-        return (Set<Blueprint>) blueprints.get(author);
+        Set<Tuple<String, String>> autorName = blueprints.keySet();
+        Set<Blueprint> responses = new HashSet<>();
+        for (Tuple<String, String> autNa : autorName){
+            if (autNa.getElem1().equals(author)){
+                responses.add(blueprints.get(autNa));
+            }
+        }
+        return responses;
     }
-    
+
+    @Override
+    public Set<Blueprint> getAllBlueprints() throws BlueprintPersistenceException {
+        Set<Blueprint> responses = new HashSet();
+        responses.addAll(blueprints.values());
+        return responses;
+    }
+
 }
