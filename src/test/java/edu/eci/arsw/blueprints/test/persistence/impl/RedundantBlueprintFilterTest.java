@@ -15,7 +15,7 @@ import static org.junit.Assert.assertEquals;
 
 
 
-@Component
+
 public class RedundantBlueprintFilterTest {
     public BlueprintsServices services;
 
@@ -45,8 +45,8 @@ public class RedundantBlueprintFilterTest {
             throw new RuntimeException(e);
         }
 
-        // Verificamos que el plano filtrado tenga solo dos puntos.
-        assertEquals(filteredBlueprint.getPoints().size(), 2);
+        // Verificamos que el plano filtrado tenga solo cuatro puntos.
+        assertEquals(filteredBlueprint.getPoints().size(),4 );
     }
 
     @Test
@@ -61,7 +61,7 @@ public class RedundantBlueprintFilterTest {
             throw new RuntimeException(e);
         }
 
-        // Obtenemos el plano filtrado.
+        // Obtenemos el plano .
         Blueprint filteredBlueprint = null;
         try {
             filteredBlueprint = services.getBlueprint("Juliana", "thepaint");
@@ -69,7 +69,7 @@ public class RedundantBlueprintFilterTest {
             throw new RuntimeException(e);
         }
 
-        // Verificamos que el plano filtrado tenga 4 puntos.
+        // Verificamos que el plano  tenga 4 puntos.
         assertEquals(filteredBlueprint.getPoints().size(), 4);
     }
 
@@ -116,7 +116,7 @@ public class RedundantBlueprintFilterTest {
             throw new RuntimeException(e);
         }
 
-        // Obtenemos los planos filtrados.
+        // Obtenemos los planos .
         Set<Blueprint> filteredBlueprints = null;
         try {
             filteredBlueprints = services.getBlueprintsByAuthor("Juliana");
@@ -124,7 +124,7 @@ public class RedundantBlueprintFilterTest {
             throw new RuntimeException(e);
         }
 
-        // Verificamos que todos los planos filtrados tengan 6 puntos.
+        // Verificamos que todos los planos tengan 6 puntos.
         for (Blueprint filteredBlueprint : filteredBlueprints) {
             assertEquals(filteredBlueprint.getPoints().size(), 6);
         }

@@ -40,12 +40,8 @@ public class BlueprintsServices {
         return  bpp.getAllBlueprints();
     }
 
-    public Set<Blueprint> getFilteredAllBlueprints() throws BlueprintPersistenceException {
-        return  filter.filter(bpp.getAllBlueprints());
-    }
-    
     /**
-     * 
+     *
      * @param author blueprint's author
      * @param name blueprint's name
      * @return the blueprint of the given name created by the given author
@@ -58,22 +54,26 @@ public class BlueprintsServices {
     /**
      *
      * @param author blueprint's author
-     * @param name blueprint's name
-     * @return the filtered blueprint of the given name created by the given author
-     * @throws BlueprintNotFoundException if there is no such blueprint
-     */
-    public Blueprint getFilteredBlueprint(String author,String name) throws BlueprintNotFoundException{
-        return filter.bluePrintFilter(getBlueprint(author, name));
-    }
-
-    /**
-     * 
-     * @param author blueprint's author
      * @return all the blueprints of the given author
      * @throws BlueprintNotFoundException if the given author doesn't exist
      */
     public Set<Blueprint> getBlueprintsByAuthor(String author) throws BlueprintNotFoundException{
         return  bpp.getBlueprintsByAuthor(author);
+    }
+
+    public Set<Blueprint> getFilteredAllBlueprints() throws BlueprintPersistenceException {
+        return  filter.filter(bpp.getAllBlueprints());
+    }
+
+    /**
+     *
+     * @param author blueprint's author
+     * @param name blueprint's name
+     * @return the filtered blueprint of the given name created by the given author
+     * @throws BlueprintNotFoundException if there is no such blueprint
+     */
+    public Blueprint getFilteredBlueprint(String author,String name) throws BlueprintNotFoundException {
+        return filter.bluePrintFilter(getBlueprint(author, name));
     }
 
     public Set<Blueprint> getFilteredBlueprintsByAuthor(String author) throws BlueprintNotFoundException{

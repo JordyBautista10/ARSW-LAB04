@@ -17,12 +17,14 @@ public class SubsampledBlueprintFilter implements BlueprintFilter {
         List<Point> points = blueprint.getPoints();
         List<Point> filteredList = new ArrayList<>();
 
-        // Calculamos el número de puntos que queremos conservar.
-        int numPointsToKeep = points.size() / 2;
+
 
         // Recorremos la lista de puntos y conservamos los primeros `numPointsToKeep` puntos.
-        for (int i = 0; i < numPointsToKeep; i++) {
-            filteredList.add(points.get(i));
+        for (int i = 0; i < points.size(); i++) {
+            if (i % 2 == 0){
+                filteredList.add(points.get(i));
+            }
+
         }
 
         blueprint.setPoints(filteredList);
