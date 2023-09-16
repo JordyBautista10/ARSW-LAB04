@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e07b995-2719-45a2-b689-852f269e960c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="59d5afdb-1f82-4334-ba80-804d17c8fad2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/filter/impl/RedundantBlueprintFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/filter/impl/RedundantBlueprintFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/filter/impl/SubsampledBlueprintFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/filter/impl/SubsampledBlueprintFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/services/BlueprintsServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/services/BlueprintsServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/eci/arsw/blueprints/test/persistence/impl/RedundantBlueprintFilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/eci/arsw/blueprints/test/persistence/impl/RedundantBlueprintFilterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/eci/arsw/blueprints/test/persistence/impl/SubsamplingFilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/eci/arsw/blueprints/test/persistence/impl/SubsamplingFilterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/filter/impl/RedundantBlueprintFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/filter/impl/RedundantBlueprintFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/filter/impl/SubsampledBlueprintFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/filter/impl/SubsampledBlueprintFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/services/BlueprintsServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/services/BlueprintsServices.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/eci/arsw/blueprints/test/persistence/impl/RedundantBlueprintFilterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/eci/arsw/blueprints/test/persistence/impl/RedundantBlueprintFilterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/eci/arsw/blueprints/test/persistence/impl/SubsamplingFilterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/eci/arsw/blueprints/test/persistence/impl/SubsamplingFilterTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,19 +14,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <favorite-branches>
-      <branch-storage>
-        <map>
-          <entry type="REMOTE">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="origin/develop" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
@@ -54,7 +31,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2VRzIlRnxypNjEvI61OPcoP69WS" />
+  <component name="ProjectId" id="2VSbGLWdt3cVZQUaZU8vI95QdOv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -67,11 +44,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6e07b995-2719-45a2-b689-852f269e960c" name="Changes" comment="" />
-      <created>1694813610164</created>
+      <changelist id="59d5afdb-1f82-4334-ba80-804d17c8fad2" name="Changes" comment="" />
+      <created>1694832334254</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1694813610164</updated>
+      <updated>1694832334254</updated>
     </task>
     <servers />
   </component>
