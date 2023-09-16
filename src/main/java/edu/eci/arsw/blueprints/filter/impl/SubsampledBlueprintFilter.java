@@ -19,7 +19,7 @@ public class SubsampledBlueprintFilter implements BlueprintFilter {
 
 
 
-        // Recorremos la lista de puntos y conservamos los primeros `numPointsToKeep` puntos.
+        // Recorremos la lista de puntos y conservamos los los datos que se encuentran en la posicion par.
         for (int i = 0; i < points.size(); i++) {
             if (i % 2 == 0){
                 filteredList.add(points.get(i));

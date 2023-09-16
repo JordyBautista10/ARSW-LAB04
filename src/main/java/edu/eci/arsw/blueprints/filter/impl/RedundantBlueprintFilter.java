@@ -39,7 +39,7 @@ public class RedundantBlueprintFilter implements BlueprintFilter {
         //Filtramos los planos que no cumplen con los criterios de filtrado.
         for (Blueprint blueprint : blueprints) {
             Blueprint filteredBlueprint = bluePrintFilter(blueprint);
-            if (filteredBlueprint != null) { // no entiendo para que se hace esta validacion
+            if (filteredBlueprint != null) {
                 filteredBlueprints.add(filteredBlueprint);
             }
         }
