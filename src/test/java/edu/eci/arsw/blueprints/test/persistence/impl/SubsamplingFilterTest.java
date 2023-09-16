@@ -25,7 +25,6 @@ public class SubsamplingFilterTest {
         services =ac.getBean(BlueprintsServices.class);
     }
 
-
     @Test
     public void shouldFilterMultipleBlueprintsBySubsampling() {
         try {
@@ -40,6 +39,24 @@ public class SubsamplingFilterTest {
             blueprints.forEach(blueprint -> {
                 assertEquals(blueprint.getPoints().size(), 3);
             });
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            fail("Fallo que no deberia de activarse");
+        }
+    }
+
+    @Test
+    public void shouldFilterBlueprintsBySubsampling() {
+        try {
+            Point[] pts = new Point[]{new Point(1, 1), new Point(1, 2), new Point(0, 5)};
+            Blueprint bp1 = new Blueprint("Mariana", "thepaint", pts);
+            Blueprint bp2 = new Blueprint("Juliana", "thepaint2", pts);
+
+            services.addNewBlueprint(bp1);
+            services.addNewBlueprint(bp2);
+
+            Blueprint blueprint = services.getFilteredBlueprint("Mariana","thepaint");
+            assertEquals(blueprint.getPoints().size(),2);
         } catch (Exception ex) {
             ex.printStackTrace();
             fail("Fallo que no deberia de activarse");

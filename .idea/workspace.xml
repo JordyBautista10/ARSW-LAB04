@@ -4,24 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5463215a-3912-4d49-8e64-4b714c44b4ca" name="Changes" comment="Save">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/Main.java" afterDir="false" />
+    <list default="true" id="59d5afdb-1f82-4334-ba80-804d17c8fad2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/filter/impl/RedundantBlueprintFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/filter/impl/RedundantBlueprintFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/model/Blueprint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/model/Blueprint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/model/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/model/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/persistence/impl/InMemoryBlueprintPersistence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/persistence/impl/InMemoryBlueprintPersistence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/services/BlueprintsServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/services/BlueprintsServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/eci/arsw/blueprints/test/persistence/impl/RedundantBlueprintFilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/eci/arsw/blueprints/test/persistence/impl/RedundantBlueprintFilterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/eci/arsw/blueprints/test/persistence/impl/SubsamplingFilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/eci/arsw/blueprints/test/persistence/impl/SubsamplingFilterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/filter/impl/RedundantBlueprintFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/filter/impl/RedundantBlueprintFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/model/Blueprint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/model/Blueprint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/model/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/model/Point.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/persistence/impl/InMemoryBlueprintPersistence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/persistence/impl/InMemoryBlueprintPersistence.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/services/BlueprintsServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/eci/arsw/blueprints/services/BlueprintsServices.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/eci/arsw/blueprints/test/persistence/impl/RedundantBlueprintFilterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/eci/arsw/blueprints/test/persistence/impl/RedundantBlueprintFilterTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/eci/arsw/blueprints/test/persistence/impl/SubsamplingFilterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/edu/eci/arsw/blueprints/test/persistence/impl/SubsamplingFilterTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/filter/impl/SubsampledBlueprintFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/filter/impl/SubsampledBlueprintFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,121 +14,42 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.SubsamplingFilterTest">
-    <configuration name="InMemoryPersistenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="blueprints-middleware" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.eci.arsw.blueprints.test.persistence.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.eci.arsw.blueprints.test.persistence.impl" />
-      <option name="MAIN_CLASS_NAME" value="edu.eci.arsw.blueprints.test.persistence.impl.InMemoryPersistenceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InMemoryPersistenceTest.getBlueprintTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="blueprints-middleware" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.eci.arsw.blueprints.test.persistence.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.eci.arsw.blueprints.test.persistence.impl" />
-      <option name="MAIN_CLASS_NAME" value="edu.eci.arsw.blueprints.test.persistence.impl.InMemoryPersistenceTest" />
-      <option name="METHOD_NAME" value="getBlueprintTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RedundantBlueprintFilterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="blueprints-middleware" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.eci.arsw.blueprints.test.persistence.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.eci.arsw.blueprints.test.persistence.impl" />
-      <option name="MAIN_CLASS_NAME" value="edu.eci.arsw.blueprints.test.persistence.impl.RedundantBlueprintFilterTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubsamplingFilterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="blueprints-middleware" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.eci.arsw.blueprints.test.persistence.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.eci.arsw.blueprints.test.persistence.impl" />
-      <option name="MAIN_CLASS_NAME" value="edu.eci.arsw.blueprints.test.persistence.impl.SubsamplingFilterTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubsamplingFilterTest.shouldFilterMultipleBlueprintsBySubsampling" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="blueprints-middleware" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.eci.arsw.blueprints.test.persistence.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.eci.arsw.blueprints.test.persistence.impl" />
-      <option name="MAIN_CLASS_NAME" value="edu.eci.arsw.blueprints.test.persistence.impl.SubsamplingFilterTest" />
-      <option name="METHOD_NAME" value="shouldFilterMultipleBlueprintsBySubsampling" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.SubsamplingFilterTest" />
-        <item itemvalue="JUnit.SubsamplingFilterTest.shouldFilterMultipleBlueprintsBySubsampling" />
-        <item itemvalue="JUnit.RedundantBlueprintFilterTest" />
-        <item itemvalue="JUnit.InMemoryPersistenceTest" />
-        <item itemvalue="JUnit.InMemoryPersistenceTest.getBlueprintTest" />
-      </list>
-    </recent_temporary>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2VSbGLWdt3cVZQUaZU8vI95QdOv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59d5afdb-1f82-4334-ba80-804d17c8fad2" name="Changes" comment="" />
+      <created>1694832334254</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694832334254</updated>
+    </task>
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Save" />
-    <option name="LAST_COMMIT_MESSAGE" value="Save" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.UnsupportedOperationException" package="java.lang" />
-          <option name="timeStamp" value="4" />
-        </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/edu/eci/arsw/blueprints/filter/impl/RedundantBlueprintFilter.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/edu/eci/arsw/blueprints/test/persistence/impl/RedundantBlueprintFilterTest.java</url>
-          <line>99</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -18,19 +18,19 @@ public class RedundantBlueprintFilter implements BlueprintFilter {
     public Blueprint bluePrintFilter(Blueprint blueprint) {
         List<Point> points = blueprint.getPoints();
         List<Point> filteredList = new ArrayList<>();
-
-        // Eliminamos la repetición de puntos consecutivos.
+        // suprimimos los puntos consecutivos que se encuentren repetidos.
         for (int i = 0; i < points.size() ; i++) {
-            if (!filteredList.contains(points.get(i))){
+            if(i == points.size()-1){
                 filteredList.add(points.get(i));
+            }else {
+                if (!points.get(i).equals(points.get(i + 1))) {
+                    filteredList.add(points.get(i));
+                }
             }
         }
-
         blueprint.setPoints(filteredList);
         return blueprint;
     }
-
-
 
     @Override
     public Set<Blueprint> filter(Set<Blueprint> blueprints) {
